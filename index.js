@@ -44,7 +44,7 @@ const counterReducer = (state = initialStateCounter, action) => {
                 count: 0
             }     
         default:
-            state;
+            return state;
     }
 }
 
